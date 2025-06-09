@@ -1,6 +1,3 @@
-//<?php
-
-
 //$stringa = 'Ciao'; //un solo uguale, assegnazione
 
 //const INTERO = 78; // senza dollaro,costanti IN MAIUSCOLO
@@ -18,8 +15,8 @@
 
 //echo $stringa //stampa
 
-//1) Predefiniti, scalari o primitivi
-//2) composti o user defined
+//1 Predefiniti, scalari o primitivi
+//2 composti o user defined
 
 //$stringa = 'ciao'; //stringa
 //$intero = 67890; //intero
@@ -63,21 +60,32 @@
 
 //print r stampa tutto ma per debug
 
-// tipi di operatori
-//1) matematico
-//2) confronto
-//3) logico
+/// tipi di operatori
+//1 matematico
+//2 confronto
+//3 logico
 
-//1)echo $x + $y;
+//1 echo $x + $y;
 //echo $x - $y;
 //echo $x * $y;
 //echo $x / $y;
 //echo $x % $y;(modulo resto);
 
 //echo $a == $b;//confronta il valore
-//echo $a === $b;//confronta il valore e il tipo
+//echo $a === $b;//confronta il valore e il tipo///
+
+
 
 <?php
-  $name = "Leysan";
-  echo "Hello, $name!";
-?>
+  $user = [
+     'name' =>'Leysan'];
+  echo $user ['name'];
+
+
+$person1 = [
+'name'=> 'Leysan',
+'surname' => 'Nasretdinova'
+];
+
+echo $person1['surname'];
+
